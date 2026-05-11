@@ -1,0 +1,300 @@
+[15-Apr-2026 00:20:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php:31
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php on line 31
+[15-Apr-2026 00:20:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php:31
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php on line 31
+[15-Apr-2026 00:21:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php:31
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php on line 31
+[15-Apr-2026 00:21:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php:31
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar_pseudocodigo.php on line 31
+[15-Apr-2026 00:25:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/fsxdtjga/public_html/UTA/includes/header.php:13
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/pseudocodigo.php(3): require_once()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/includes/header.php on line 13
+[15-Apr-2026 00:25:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/fsxdtjga/public_html/UTA/includes/header.php:13
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/pseudocodigo.php(3): require_once()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/includes/header.php on line 13
+[15-Apr-2026 00:25:45 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/fsxdtjga/public_html/UTA/includes/header.php:13
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/index.php(3): require_once()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/includes/header.php on line 13
+[15-Apr-2026 00:25:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/fsxdtjga/public_html/UTA/includes/header.php:13
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/index.php(3): require_once()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/includes/header.php on line 13
+[15-Apr-2026 00:43:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:43:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:43:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 00:44:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 00:44:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:05:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:05:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:05:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:05:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:05:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:05:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fsxdtjga_UTA`.`Intento`, CONSTRAINT `FK_Intento_Usuario` FOREIGN KEY (`IdUsuario`) REFERENCES `Usuario` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:05:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:05:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:06:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:06:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[15-Apr-2026 01:53:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 24
+[15-Apr-2026 01:53:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `fsxdtjga_UTA`.`Intento`.`Resultado` at row 1 in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php:29
+Stack trace:
+#0 /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/procesar.php on line 29
+[16-Apr-2026 17:16:19 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/pseudocodigo.php on line 11
+[16-Apr-2026 17:21:38 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fsxdtjga/public_html/UTA/modulos/ejercicios/pseudocodigo.php on line 11
